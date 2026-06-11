@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="496.55576"
+   viewBox="0 0 496.55575 630.92334"
+   role="img"
+   version="1.1"
+   id="svg63"
+   sodipodi:docname="software_license_flowchart.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   height="630.92334"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview63"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0506621"
+     inkscape:cx="51.39616"
+     inkscape:cy="365.48381"
+     inkscape:window-width="1876"
+     inkscape:window-height="1005"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg63" />
+  <title
+     id="title1">Software license decision flowchart</title>
+  <desc
+     id="desc1">A flowchart that helps determine whether a software project is proprietary, source-available, permissive open source, or free software (GPL family), based on source visibility, license presence, and license terms.</desc>
+  <defs
+     id="defs32">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1" />
+    </marker>
+    <mask
+       id="imagine-text-gaps-9pi7wi"
+       maskUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="680"
+         height="820"
+         fill="#ffffff"
+         id="rect1" />
+      <rect
+         x="279.85938"
+         y="29.333334"
+         width="120.28756"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect2" />
+      <rect
+         x="249.63022"
+         y="95.333336"
+         width="180.73959"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect3" />
+      <rect
+         x="280.10938"
+         y="114.33334"
+         width="119.78125"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect4" />
+      <rect
+         x="135.78125"
+         y="92"
+         width="24.4375"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect5" />
+      <rect
+         x="518.02606"
+         y="92"
+         width="27.947918"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect6" />
+      <rect
+         x="57.869793"
+         y="95.333336"
+         width="84.260422"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect7" />
+      <rect
+         x="55.552086"
+         y="114.33334"
+         width="88.895836"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect8" />
+      <rect
+         x="500.48959"
+         y="95.333336"
+         width="147.02084"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect9" />
+      <rect
+         x="518.349"
+         y="114.33334"
+         width="111.30209"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect10" />
+      <rect
+         x="582"
+         y="154"
+         width="24.4375"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect11" />
+      <rect
+         x="438.02606"
+         y="92"
+         width="27.947918"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect12" />
+      <rect
+         x="508.85419"
+         y="195.33334"
+         width="130.29167"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect13" />
+      <rect
+         x="523.26562"
+         y="214.33334"
+         width="101.46875"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect14" />
+      <rect
+         x="331.07812"
+         y="199.33334"
+         width="106.01067"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect15" />
+      <rect
+         x="303.0625"
+         y="217.33334"
+         width="161.875"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect16" />
+      <rect
+         x="331.61981"
+         y="234.33334"
+         width="104.76042"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect17" />
+      <rect
+         x="199.78125"
+         y="198"
+         width="24.4375"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect18" />
+      <rect
+         x="392"
+         y="264"
+         width="27.947918"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect19" />
+      <rect
+         x="35.067711"
+         y="201.33334"
+         width="117.86459"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect20" />
+      <rect
+         x="62.338547"
+         y="220.33334"
+         width="63.322918"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect21" />
+      <rect
+         x="287.03647"
+         y="309.33334"
+         width="193.92709"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect22" />
+      <rect
+         x="324.78125"
+         y="328.33334"
+         width="118.4375"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect23" />
+      <rect
+         x="321.01044"
+         y="344.33334"
+         width="125.97917"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect24" />
+      <rect
+         x="183.78125"
+         y="308"
+         width="24.4375"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect25" />
+      <rect
+         x="548.02606"
+         y="308"
+         width="27.947918"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect26" />
+      <rect
+         x="49.057293"
+         y="307.33334"
+         width="79.885422"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect27" />
+      <rect
+         x="43.927086"
+         y="325.33334"
+         width="90.145836"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect28" />
+      <rect
+         x="36.276043"
+         y="343.33334"
+         width="105.44792"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect29" />
+      <rect
+         x="609.99481"
+         y="307.33334"
+         width="38.010418"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect30" />
+      <rect
+         x="595.06775"
+         y="325.33334"
+         width="67.864586"
+         height="21.333334"
+         fill="#000000"
+         rx="2"
+         id="rect31" />
+      <rect
+         x="594.599"
+         y="343.33334"
+         width="68.802086"
+         height="19.333334"
+         fill="#000000"
+         rx="2"
+         id="rect32" />
+    </mask>
+    <marker
+       id="arrow-3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6" />
+    </marker>
+    <marker
+       id="arrow-3-3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-5" />
+    </marker>
+    <marker
+       id="arrow-3-3-9"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-5-1" />
+    </marker>
+    <marker
+       id="arrow-3-3-9-0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-5-1-9" />
+    </marker>
+    <marker
+       id="arrow-3-2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-6" />
+    </marker>
+    <marker
+       id="arrow-3-3-9-0-2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-5-1-9-0" />
+    </marker>
+    <marker
+       id="arrow-3-2-9"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-6-2" />
+    </marker>
+    <marker
+       id="arrow-3-2-97"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-6-3" />
+    </marker>
+    <marker
+       id="arrow-3-2-97-2"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1-6-6-3-9" />
+    </marker>
+  </defs>
+  <!-- START: Software project -->
+  <rect
+     x="237.75958"
+     y="0.25"
+     width="134.16833"
+     height="40"
+     rx="8"
+     stroke-width="0.5"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#f1efe8;stroke:#5f5e5a;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect33"
+     ry="8" />
+  <!-- Arrow down -->
+  <line
+     x1="304.84375"
+     y1="40.25"
+     x2="304.84375"
+     y2="70.25"
+     marker-end="url(#arrow)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="line33" />
+  <!-- Q1: Source code public? -->
+  <rect
+     x="206.06975"
+     y="70.25"
+     width="197.548"
+     height="48"
+     rx="8"
+     stroke-width="0.5"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#eeedfe;stroke:#534ab7;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect34"
+     ry="8" />
+  <!-- Arrow left (NO) -->
+  <text
+     x="151.3642"
+     y="89.805084"
+     text-anchor="middle"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text36">No</text>
+  <!-- Arrow right (YES) -->
+  <text
+     x="318.82773"
+     y="268.97531"
+     text-anchor="middle"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text37">Yes</text>
+  <text
+     x="318.82773"
+     y="394.59946"
+     text-anchor="middle"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text37-9">Yes</text>
+  <!-- OUTCOME: Proprietary -->
+  <!-- Q2: License file? -->
+  <rect
+     x="220.84375"
+     y="183.87416"
+     width="168"
+     height="48"
+     rx="8"
+     stroke-width="0.5"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#eeedfe;stroke:#534ab7;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect39"
+     ry="8" />
+  <!-- Arrow down from Q2 (NO → All rights reserved) -->
+  <line
+     x1="304.84375"
+     y1="118.5"
+     x2="304.84375"
+     y2="182.94922"
+     marker-end="url(#arrow-3)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3)"
+     id="line41-5" />
+  <text
+     x="169.29808"
+     y="203.42924"
+     text-anchor="start"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text42">No</text>
+  <text
+     x="142.68436"
+     y="323.05341"
+     text-anchor="start"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text42-6">No</text>
+  <!-- Arrow YES from Q2 curves down-left to Q3 -->
+  <!-- Yes path: down from Q2, then left to Q3 -->
+  <text
+     x="318.82773"
+     y="155.35115"
+     text-anchor="middle"
+     style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text43">Yes</text>
+  <!-- OUTCOME: All rights reserved -->
+  <!-- Q3: Modification & redistribution allowed? -->
+  <rect
+     x="173.95857"
+     y="297.49832"
+     width="261.77039"
+     height="60"
+     rx="8"
+     stroke-width="0.5"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#eeedfe;stroke:#534ab7;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="rect45"
+     ry="8" />
+  <!-- Arrow NO left from Q3 -->
+  <!-- Arrow YES down from Q3 -->
+  <!-- OUTCOME: Source-available -->
+  <!-- Q4: Guarantees user freedoms? -->
+  <!-- Arrow NO left from Q4 -->
+  <!-- Arrow YES right from Q4 -->
+  <!-- OUTCOME: Permissive open source -->
+  <!-- OUTCOME: Free software -->
+  <line
+     x1="205.81975"
+     y1="94.250008"
+     x2="98.105072"
+     y2="94.250008"
+     marker-end="url(#arrow-3-3)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-3)"
+     id="line41-5-2" />
+  <line
+     x1="220.59373"
+     y1="207.87416"
+     x2="135.51723"
+     y2="207.87416"
+     marker-end="url(#arrow-3-3-9)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-3-9)"
+     id="line41-5-2-7" />
+  <line
+     x1="173.70857"
+     y1="327.49832"
+     x2="129.17494"
+     y2="327.49832"
+     marker-end="url(#arrow-3-3-9-0)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-3-9-0)"
+     id="line41-5-2-7-6" />
+  <line
+     x1="304.84375"
+     y1="232.12416"
+     x2="304.84375"
+     y2="296.57336"
+     marker-end="url(#arrow-3)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3)"
+     id="line63" />
+  <line
+     x1="304.84375"
+     y1="357.74832"
+     x2="304.84375"
+     y2="422.19754"
+     marker-end="url(#arrow-3-2)"
+     style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-2)"
+     id="line63-8" />
+  <g
+     id="g81"
+     transform="translate(-35.156243,-19.75)">
+    <text
+       x="428.98398"
+       y="539.97363"
+       text-anchor="middle"
+       style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text37-9-4">Yes</text>
+    <text
+       x="245.0629"
+       y="539.97363"
+       text-anchor="start"
+       style="color:#000000;font-weight:400;font-size:12px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#3d3d3a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="text42-6-8">No</text>
+    <rect
+       x="196"
+       y="442.8725"
+       width="288"
+       height="60"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#eeedfe;stroke:#534ab7;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect52"
+       ry="8" />
+    <rect
+       x="196"
+       y="568.49664"
+       width="138"
+       height="60"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#e1f5ee;stroke:#0f6e56;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect57"
+       ry="8" />
+    <rect
+       x="346"
+       y="568.49664"
+       width="138"
+       height="60"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#e1f5ee;stroke:#0f6e56;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect60"
+       ry="8" />
+    <line
+       x1="415"
+       y1="503.1225"
+       x2="415"
+       y2="567.57172"
+       marker-end="url(#arrow-3-2-97)"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-2-97)"
+       id="line63-8-1" />
+    <line
+       x1="265"
+       y1="503.1225"
+       x2="265"
+       y2="567.57172"
+       marker-end="url(#arrow-3-2-97-2)"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;stroke:#73726c;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#arrow-3-2-97-2)"
+       id="line63-8-1-1" />
+    <g
+       id="g72"
+       transform="translate(0,-1)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="231.15433"
+         y="596.86774"
+         id="text70"><tspan
+           sodipodi:role="line"
+           id="tspan70"
+           x="231.15433"
+           y="596.86774"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#085041;fill-opacity:1">Permissive</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="217.65918"
+         y="609.90973"
+         id="text70-5"><tspan
+           sodipodi:role="line"
+           id="tspan70-6"
+           x="217.65918"
+           y="609.90973"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#0e967b;fill-opacity:1">MIT, BSD, Apache</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="388.4975"
+       y="594.58258"
+       id="text70-52"><tspan
+         sodipodi:role="line"
+         id="tspan70-5"
+         x="388.4975"
+         y="594.58258"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#085041;fill-opacity:1">Copyleft</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="386.60547"
+       y="610.3111"
+       id="text70-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan70-6-7"
+         x="386.60547"
+         y="610.3111"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#0e967b;fill-opacity:1">GPL family</tspan></text>
+    <g
+       id="g73"
+       transform="translate(-205.13838,55.399231)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="423.31555"
+         y="414.89905"
+         id="text70-52-7"><tspan
+           sodipodi:role="line"
+           id="tspan70-5-4"
+           x="423.31555"
+           y="414.89905"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#3c3489;fill-opacity:1">Must derivatives use the same license?</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="504.57391"
+         y="427.94104"
+         id="text70-5-3-3"><tspan
+           sodipodi:role="line"
+           id="tspan70-6-7-0"
+           x="504.57391"
+           y="427.94104"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#534ab7;fill-opacity:1">Copyleft clause</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g74"
+     transform="translate(-244.49957,-207.26437)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="432.45386"
+       y="533.34277"
+       id="text70-52-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan70-5-4-8"
+         x="432.45386"
+         y="533.34277"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#3c3489;fill-opacity:1">Modification &amp; redistribution allowed?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="504.32867"
+       y="546.38477"
+       id="text70-5-3-3-8"><tspan
+         sodipodi:role="line"
+         id="tspan70-6-7-0-4"
+         x="504.32867"
+         y="546.38477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#534ab7;fill-opacity:1">Per license terms</tspan></text>
+  </g>
+  <g
+     id="g75"
+     transform="translate(-204.42626,-36.083847)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="445.07031"
+       y="241.34277"
+       id="text70-52-7-6-4"><tspan
+         sodipodi:role="line"
+         id="tspan70-5-4-8-9"
+         x="445.07031"
+         y="241.34277"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#3c3489;fill-opacity:1">License file present?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="460.43213"
+       y="254.38477"
+       id="text70-5-3-3-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan70-6-7-0-4-0"
+         x="460.43213"
+         y="254.38477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#534ab7;fill-opacity:1">In repo or package</tspan></text>
+  </g>
+  <g
+     id="g76"
+     transform="translate(-254.71628,-50.666992)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="478.21375"
+       y="142.34277"
+       id="text70-52-7-6-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan70-5-4-8-9-9"
+         x="478.21375"
+         y="142.34277"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#3c3489;fill-opacity:1">Is the source code public?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+       x="507.43213"
+       y="155.38477"
+       id="text70-5-3-3-8-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan70-6-7-0-4-0-6"
+         x="507.43213"
+         y="155.38477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#534ab7;fill-opacity:1">Can anyone read it?</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+     x="253.39236"
+     y="23.996094"
+     id="text70-52-7-6-4-4"><tspan
+       sodipodi:role="line"
+       id="tspan70-5-4-8-9-95"
+       x="253.39236"
+       y="23.996094"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#4d4d4d;fill-opacity:1">Software project</tspan></text>
+  <g
+     id="g1">
+    <rect
+       x="0.25"
+       y="303.49832"
+       width="128"
+       height="48"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#faeeda;stroke:#854f0b;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect50"
+       ry="8" />
+    <g
+       id="g80"
+       transform="translate(-491.35889,266.58475)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="503.20117"
+         y="58.342773"
+         id="text70-52-7-6-4-7"><tspan
+           sodipodi:role="line"
+           id="tspan70-5-4-8-9-1"
+           x="503.20117"
+           y="58.342773"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#633806;fill-opacity:1">Source-available</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="529.43213"
+         y="71.384766"
+         id="text70-5-3-3-8-2-7"><tspan
+           sodipodi:role="line"
+           id="tspan70-6-7-0-4-0-2"
+           x="529.43213"
+           y="71.384766"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#854f0b;fill-opacity:1">Read only</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g2"
+     transform="translate(-23.710447)">
+    <rect
+       x="23.960447"
+       y="183.87416"
+       width="134.34947"
+       height="48"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#faece7;stroke:#993c1d;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect43"
+       ry="8" />
+    <g
+       id="g79"
+       transform="translate(-472.62913,-61.988144)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="507.89062"
+         y="267.2334"
+         id="text70-52-7-6-4-7-1"><tspan
+           sodipodi:role="line"
+           id="tspan70-5-4-8-9-1-5"
+           x="507.89062"
+           y="267.2334"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#712b13;fill-opacity:1">All rights reserved</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="520.276"
+         y="280.27539"
+         id="text70-5-3-3-8-2-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan70-6-7-0-4-0-2-4"
+           x="520.276"
+           y="280.27539"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#993c1d;fill-opacity:1">Not open source</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g3"
+     transform="translate(-41.647514)">
+    <rect
+       x="41.897514"
+       y="70.25"
+       width="96.927322"
+       height="48"
+       rx="8"
+       stroke-width="0.5"
+       style="color:#000000;font-weight:400;font-size:16px;font-family:'Anthropic Sans', '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#faece7;stroke:#993c1d;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+       id="rect37"
+       ry="8" />
+    <g
+       id="g77"
+       transform="translate(19.271329,38.541987)">
+      <g
+         id="svg63-8-2"
+         transform="translate(-426.95947,-187.10937)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+           x="463.15753"
+           y="241.34277"
+           id="text70-52-7-6-4-7-2"><tspan
+             sodipodi:role="line"
+             id="tspan70-5-4-8-9-1-6"
+             x="463.15753"
+             y="241.34277"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#712b13;fill-opacity:1">Proprietary</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+           x="460.43213"
+           y="254.38477"
+           id="text70-5-3-3-8-2-7-1"><tspan
+             sodipodi:role="line"
+             id="tspan70-6-7-0-4-0-2-0"
+             x="460.43213"
+             y="254.38477"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';fill:#993c1d;fill-opacity:1">Closed source</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#73726c;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1"
+     id="rect80"
+     width="380.92401"
+     height="227.47758"
+     x="114.38174"
+     y="402.19577"
+     ry="20"
+     rx="20" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans';writing-mode:lr-tb;direction:ltr;fill:#000000"
+     x="112.57803"
+     y="398.08835"
+     id="text70-52-7-6-4-4-0"><tspan
+       sodipodi:role="line"
+       id="tspan70-5-4-8-9-95-9"
+       x="112.57803"
+       y="398.08835"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Medium';fill:#4d4d4d;fill-opacity:1">Open source</tspan></text>
+  <metadata
+     id="metadata81">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Software license decision flowchart</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

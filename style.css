@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#loader {
+  padding: 20px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
