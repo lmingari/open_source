@@ -1,0 +1,30 @@
+/* @theme my-theme */
+@import 'default';
+
+section {
+  font-family: sans-serif;
+  overflow-y: auto !important;
+  display: block !important;
+  padding: 40px;
+}
+
+div.info {
+  background: #e8f4fd;
+  border-left: 4px solid #3b82f6;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #ccc;
+  margin-top: 8px;
+}
+
+h3::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin-top: 8px;
+}

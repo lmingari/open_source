@@ -1,26 +1,26 @@
 ---
-title: Introduction to Open Source Software
-
----
-
----
 title: Open Source Software, Licenses, Repositories, and Collaboration
-tags: Talk
 description: Understanding how modern software is built, shared, and used
+author: Leonardo Mingari
+date: 12 June 2026
+marp: true
+theme: my-theme
 ---
 
 # Introduction to Open Source Software
 
-### Understanding how modern software is built, shared, and used
+## Understanding how modern software is built, shared, and used
 
 Leonardo Mingari
 _Geosciences Barcelona (GEO3BCN-CSIC)_
 
-<img src="https://hackmd.io/_uploads/r1zCLuDWzg.png" alt="qrcode" width="200"/>
+![w:250px](assets/qrcode.png)
 
 ---
 
 ## Introduction
+
+----
 
 ### Content
 
@@ -43,13 +43,15 @@ Modern software is produced through coordinated collaboration among multiple con
 
 These concepts matter for research, industry, and everyday tools you already use.
 
-::: info
+<div class="info">
 It matters for your work, even if you are not a developer!
-:::
+</div>
 
 ---
 
 ## Section 1: Open source software
+
+----
 
 ### Why It Matters
 
@@ -75,7 +77,10 @@ If you find code online:
 
 The answer is not always intuitive.
 
+<div class="info">
+
 __It depends on the license__.
+</div>
 
 ----
 
@@ -97,11 +102,11 @@ The license tells you:
 
 People contribute to open source in order to:
 
-* solve problems together
-* learn from others
-* improve tools they use
-* share knowledge
-* reduce dependence on one company
+- solve problems together
+- learn from others
+- improve tools they use
+- share knowledge
+- reduce dependence on one company
 
 ----
 
@@ -133,14 +138,14 @@ Software whose source code is not publicly available and whose use, modification
 
 #### Examples
 
-* Microsoft Windows,
-* Microsoft Office,
-* Adobe Photoshop,
-* macOS
+- Microsoft Windows,
+- Microsoft Office,
+- Adobe Photoshop,
+- macOS
 
-:::info
+<div class="info">
 Focuses on commercial control, software is a product whose use is restricted to protect revenue and intellectual property
-:::
+</div>
 
 ----
 
@@ -163,27 +168,27 @@ Open source software addresses many of these limitations.
 ### Free software
 
 Software that grants users the freedom to run, study, modify, and redistribute the program.
-* VLC media player
-* LibreOffice
-* Inkscape
-* GIMP
+- VLC media player
+- LibreOffice
+- Inkscape
+- GIMP
 
-:::info
+<div class="info">
 Focuses on user freedom, ensuring everyone has the right to run, study, modify, and share software
-:::
+</div>
 
 ----
 
 ### Public Domain Software
 
 Software with no copyright restrictions (or where rights have been waived), allowing unrestricted use, modification, and distribution.
-* SQLite
-* Software in the early computer age (pre-1988): BLAS (1979), FFTPACK (1985)
-* Many US federal agency works (e.g., NASA, NOAA), which are often in the public domain
+- SQLite
+- Software in the early computer age (pre-1988): BLAS (1979), FFTPACK (1985)
+- Many US federal agency works (e.g., NASA, NOAA), which are often in the public domain
 
-:::info
+<div class="info">
 Focuses on unrestricted use, removing ownership so software becomes a shared public resource with no legal barriers
-:::
+</div>
 
 ----
 
@@ -191,28 +196,29 @@ Focuses on unrestricted use, removing ownership so software becomes a shared pub
 
 Software whose source code is publicly available and that can be modified and redistributed under an open-source license
 
-* Linux Kernel,
-* Mozilla Firefox, 
-* Chromium
-* Apache HTTP Server
+- Linux Kernel,
+- Mozilla Firefox, 
+- Chromium
+- Apache HTTP Server
 
-:::info 
+<div class="info">
 Focuses on collaborative development, making source code open to improve quality, transparency, and innovation through community contribution
-:::
+</div>
 
 ----
 
 ### Source-Available Software
 
 Software whose source code is visible, but which does not meet the requirements of an open-source license because of additional restrictions.
-* Redis
-* MongoDB
-* ElasticSearch
-* Sentry
 
-:::info 
+- Redis
+- MongoDB
+- ElasticSearch
+- Sentry
+
+<div class="info">
 Focuses on visibility with control, allowing code inspection while limiting certain uses to retain commercial advantage or governance control
-:::
+</div>
 
 ----
 
@@ -220,14 +226,14 @@ Focuses on visibility with control, allowing code inspection while limiting cert
 
 __Open Source Software__ must meet a very specific, strict 10-point definition maintained by the Open Source Initiative (OSI): [Open Source Definition (OSD)](https://opensource.org/osd). 
 
-* The OSI focuses less on ethical aspects and more on the development model.
-* It requires that the underlying source code be completely public. 
-* Additionally, the legal license must guarantee specific rights. 
+- The OSI focuses less on ethical aspects and more on the development model.
+- It requires that the underlying source code be completely public. 
+- Additionally, the legal license must guarantee specific rights. 
 
 #### Examples
-* Anyone can view, modify, and redistribute the source code.
-* The code can be used for any purpose, including commercial projects.
-* It cannot discriminate against any specific group of people or field of research.
+- Anyone can view, modify, and redistribute the source code.
+- The code can be used for any purpose, including commercial projects.
+- It cannot discriminate against any specific group of people or field of research.
 
 ----
 
@@ -235,29 +241,31 @@ __Open Source Software__ must meet a very specific, strict 10-point definition m
 
 Open source software is distributed under licenses that grant users the right to:
 
-* use, 
-* modify, 
-* and distribute software freely.
+- use, 
+- modify, 
+- and distribute software freely.
 
 Open source licenses balance user freedoms with certain obligations.
 
 #### Common Restrictions
 
-* __Copyright__: Original owners retain rights, but grant specific permissions.
-* __Patents__: Some licenses address patent rights.
-* __Attribution__: Many require crediting the original authors (e.g. [EPOS Platform](https://www.ics-c.epos-eu.org/)).
-* __Derivative Works__: Copyleft licenses often mandate that derived works use the same license.
+- __Copyright__: Original owners retain rights, but grant specific permissions.
+- __Patents__: Some licenses address patent rights.
+- __Attribution__: Many require crediting the original authors (e.g. [EPOS Platform](https://www.ics-c.epos-eu.org/)).
+- __Derivative Works__: Copyleft licenses often mandate that derived works use the same license.
 
 ---
 
 ## Section 2: Software Licenses
 
+----
+
 ### What's a Software License?
 
 A software license:
-* answers a simple question: "What are you allowed to do with this code?"
-* is the document that grants permissions and defines obligations for anyone who wants to use the code.
-* is a legal instrument that can create rights and obligations recognized by law.
+- answers a simple question: "What are you allowed to do with this code?"
+- is the document that grants permissions and defines obligations for anyone who wants to use the code.
+- is a legal instrument that can create rights and obligations recognized by law.
 
 ----
 
@@ -265,44 +273,65 @@ A software license:
 
 These licenses may vary in their precise terms, some being more permissive (such as the MIT License or the Apache License) and others imposing conditions to maintain the open source nature of the software in all derived versions (such as the GNU General Public License).
 
-:::info
+<div class="info">
+
 Open source licenses can be primarily categorized into two types: 
 1. __permissive licenses__ and
 2. __copyleft licenses__.
-:::
+
+</div>
 
 ----
 
-### Permissive Licenses
+### Permissive Licenses (I)
 
-* Permissive licenses offer __significant freedom__, allowing users to use, modify, and redistribute the software with __minimal restrictions__. 
-* This flexibility makes permissive licenses popular among developers and enterprises.
+- Permissive licenses offer __significant freedom__, allowing users to use, modify, and redistribute the software with __minimal restrictions__. 
+- This flexibility makes permissive licenses popular among developers and enterprises.
 
 #### Examples
-* __MIT License__, 
-* __Apache License 2.0__, and 
-* __BSD License__. BSD license comes in two versions: 
-    * 2-Clause and 
-    * 3-Clause BSD licenses.
+- __MIT License__, 
+- __Apache License 2.0__, and 
+- __BSD License__. BSD license comes in two versions: 
+    - 2-Clause and 
+    - 3-Clause BSD licenses.
+
+----
+
+### Permissive Licenses (II)
+
+__BSD‑3‑Clause__ and __MIT__ are extremely similar:
+- Simple and flexible (minimal restrictions)
+- Easy integration into proprietary/commercial products
+- They are widely used in academia and national labs
+- Encourages wider adoption and contributions
+- It avoids copyleft, making it industry‑friendly
+- Low legal overhead for companies and researchers
+
+but:
+
+- BSD‑3‑Clause includes an extra "no endorsement" clause (MIT does not)
 
 ----
 
 ### Copyleft Licenses
 
-* Copyleft licenses impose __stricter conditions__ on redistribution, ensuring that derivative works remain open source
-* These licenses guarantee that the software's source code and any modifications will continue to be freely available, which fosters a collaborative development environment.
+- Copyleft licenses impose __stricter conditions__ on redistribution, ensuring that derivative works remain open source
+- These licenses guarantee that the software's source code and any modifications will continue to be freely available, which fosters a collaborative development environment.
 
 #### Examples
-* __GNU General Public License (GPL)__: A widely used copyleft license that requires any derivative work to be licensed under the same terms, ensuring that the software remains open source.
-* __GNU Lesser General Public License (LGPL)__: A weaker form of the GPL, it allows linking to the licensed software without requiring the entire linked program to be open source.
+- __GNU General Public License (GPL)__: A widely used copyleft license that requires any derivative work to be licensed under the same terms, ensuring that the software remains open source.
+- __GNU Lesser General Public License (LGPL)__: A weaker form of the GPL, it allows linking to the licensed software without requiring the entire linked program to be open source.
 
 ----
 
 ### Choosing a License
 
 Different projects choose different licenses depending on their goals.
+    
+#### OSI Approved Licenses
+[Open source licenses](https://opensource.org/licenses) are licenses that comply with the Open Source Definition
 
-#### **Library or tool you want widely adopted**
+#### Library or tool you want widely adopted
 > Use a **permissive license** (MIT, Apache)
 
 _Example_: Many web libraries and developer tools use MIT or Apache to maximize usage.
@@ -313,22 +342,15 @@ _Example_: Many web libraries and developer tools use MIT or Apache to maximize 
 _Example_: The Linux kernel uses GPLv2 to guarantee long-term openness.
 
 #### Protect against patent risk (important in industry)
-> Use **Apache License 2.0**
-> ( includes an explicit patent grant)
+> Use **Apache License 2.0** ( includes an explicit patent grant)
 
 _Example_: Large-scale industry projects often choose Apache 2.0 to reduce legal and patent-related uncertainty.
-    
-#### Examples
-1) Permissive licenses like MIT or Apache might be preferred in enterprise environments where proprietary solutions are developed alongside open source components.
-
-2) Many Linux distributions use GPL-licensed software to ensure continued openness and collaboration. 
-The Linux kernel itself is licensed under the GNU General Public License version 2 (GPLv2)
 
 ----
 
 ### Type of softwares: Examples
 
-![software_license_flowchart](https://hackmd.io/_uploads/HkynH7IWGx.svg)
+![](assets/software_license_flowchart.svg)
 
 ----
 
@@ -339,10 +361,10 @@ __Windows__ is a proprietary graphical operating system developed and marketed b
 Official website: [Windows](https://www.windows.com)
 
 #### Key characteristics
-* Source code is not publicly available
-* Users receive compiled binaries (installer / system image)
-* Internal implementation cannot be inspected or modified
-* Redistribution and modification are restricted by the license
+- Source code is not publicly available
+- Users receive compiled binaries (installer / system image)
+- Internal implementation cannot be inspected or modified
+- Redistribution and modification are restricted by the license
 
 ----
 
@@ -354,13 +376,13 @@ Website: [gimp.org](https://www.gimp.org/)
 Repository: [gitlab](https://gitlab.gnome.org/GNOME/gimp)
 
 #### Key characteristics
-* License is GNU GPL (copyleft license)
-* Source code is public
-* License explicitly guarantees:
-    * run the program
-    * study the code
-    * modify it
-    * redistribute it (even modified versions)
+- License is GNU GPL (copyleft license)
+- Source code is public
+- License explicitly guarantees:
+    - run the program
+    - study the code
+    - modify it
+    - redistribute it (even modified versions)
 
 ----
 
@@ -372,25 +394,14 @@ Website: [scipy.org](https://scipy.org/)
 Repository: [gitlab](https://github.com/scipy/scipy)
 
 #### Key characteristics
-* BSD-3-Clause license (permissive license)
-* Source code is public
-* License explicitly guarantees:
-    * run the program
-    * study the code
-    * modify it
-    * redistribute it (even modified versions)
-    * no obligation to release modifications under the same license (unlike copyleft)
-
-::: info
-__BSD‑3‑Clause__ and __MIT__ are extremely similar
-* Simple and flexible (minimal restrictions)
-* Easy integration into proprietary/commercial products
-* They are widely used in academia and national labs
-* Encourages wider adoption and contributions
-* It avoids copyleft, making it industry‑friendly
-* Low legal overhead for companies and researchers
-* BSD‑3‑Clause includes an extra "no endorsement" clause (MIT does not)
-:::
+- BSD-3-Clause license (permissive license)
+- Source code is public
+- License explicitly guarantees:
+    - run the program
+    - study the code
+    - modify it
+    - redistribute it (even modified versions)
+    - no obligation to release modifications under the same license (unlike copyleft)
 
 ----
 
@@ -402,35 +413,37 @@ Website: [SQLite](https://sqlite.org/)
 Repository: [github](https://github.com/sqlite/sqlite)
 
 #### Key characteristics
-* LICENSE file
-* Official website: [copyright](https://sqlite.org/copyright.html)
+- LICENSE file
+- Official website: [copyright](https://sqlite.org/copyright.html)
 
 > Note:
 > Because SQLite is in the public domain, we do not normally accept pull requests, because if we did take a pull request, the changes in that pull request might carry a copyright and the SQLite source code would then no longer be fully in the public domain.
 
-:::info
+<div class="info">
 Copyleft (GPL) and permissive (MIT) licenses are actually better designed for collaboration precisely because they work with copyright rather than against it (they assume contributions carry copyright and handle it explicitly through license terms).
-:::
+</div>
 
 ----
 
 ### A fallback license for Europe
 
-* While SQLite is functionally open source, some organizations prefer standard licenses (MIT/BSD/GPL) for legal clarity
-* To address this, SQLite also offers a fallback license (a very permissive one) for jurisdictions where public domain is unclear
+- While SQLite is functionally open source, some organizations prefer standard licenses (MIT/BSD/GPL) for legal clarity
+- To address this, SQLite also offers a fallback license (a very permissive one) for jurisdictions where public domain is unclear
 
 Some European countries do not allow authors to fully waive moral rights, meaning:
 
-* You cannot legally "give up" all rights to your work.
-* Therefore, "public domain" is not a legally recognized status.
-* SQLite provides a backup license: the SQLite Blessing (a 0‑restriction, permissive license).
-* This ensures that SQLite is legally usable everywhere, including the EU.
-* If you are in a jurisdiction that does not recognize public domain (e.g., Germany, France, Spain), you may use SQLite under a permissive license provided by the authors.
-* This fallback license is extremely permissive (more permissive than MIT or BSD) and imposes no obligations.
+- You cannot legally "give up" all rights to your work.
+- Therefore, "public domain" is not a legally recognized status.
+- SQLite provides a backup license: the SQLite Blessing (a 0‑restriction, permissive license).
+- This ensures that SQLite is legally usable everywhere, including the EU.
+- If you are in a jurisdiction that does not recognize public domain (e.g., Germany, France, Spain), you may use SQLite under a permissive license provided by the authors.
+- This fallback license is extremely permissive (more permissive than MIT or BSD) and imposes no obligations.
 
 ---
 
 ## Section 3: Collaborative Development
+
+----
 
 ### From Open Source Code to Collaborative Development
 
@@ -448,18 +461,18 @@ These mechanisms are provided by __software repositories__ and __code hosting pl
 
 A repository is a __version-controlled storage location__ for a software project that contains:
 
-* Source code files
-* Documentation
-* Configuration files
-* Metadata (e.g., license and contribution guidelines)
-* Project assets
-* The complete history of changes to the project
+- Source code files
+- Documentation
+- Configuration files
+- Metadata (e.g., license and contribution guidelines)
+- Project assets
+- The complete history of changes to the project
 
-:::info
+<div class="info">
 This mechanism is provided by version control systems.
 
 **Git** is the most widely used version control system in modern software development.
-:::
+</div>
 
 ----
 
@@ -478,10 +491,10 @@ A repository contains all the files and information needed to define, build, and
 - project history: recorded changes over time
 
 __Key Features__
-* __Version tracking__: Records every change made to the project.
-* __Collaboration__: Allows multiple developers to work on the same codebase.
-* __Branching and merging__: Enables parallel development and integration of changes.
-* __History and recovery__: Makes it possible to review, compare, or restore previous versions.
+- __Version tracking__: Records every change made to the project.
+- __Collaboration__: Allows multiple developers to work on the same codebase.
+- __Branching and merging__: Enables parallel development and integration of changes.
+- __History and recovery__: Makes it possible to review, compare, or restore previous versions.
 
 ----
 
@@ -506,8 +519,8 @@ my-project/
 
 ### From Repositories to Code Hosting Platforms
 
-* A repository defines **what a project is** (its files and history).
-* Modern software development also requires **coordination between people and teams**.
+- A repository defines **what a project is** (its files and history).
+- Modern software development also requires **coordination between people and teams**.
 
 This is where code hosting platforms become essential:
 
@@ -518,15 +531,17 @@ This is where code hosting platforms become essential:
 
 #### Common Platforms
 
-* GitHub, 
-* GitLab, 
-* Bitbucket, 
-* institutional Git services.
+- GitHub, 
+- GitLab, 
+- Bitbucket, 
+- institutional Git services.
 
-::: info
-* A **code hosting platform** is an online service that stores repositories and provides tools for collaborative software development.
-* Code hosting platform make software development visible, structured, and collaborative.
-:::
+<div class="info">
+
+- A **code hosting platform** is an online service that stores repositories and provides tools for collaborative software development.
+- Code hosting platform make software development visible, structured, and collaborative.
+
+</div>
 
 ----
 
