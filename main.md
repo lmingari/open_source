@@ -1,6 +1,6 @@
 ---
-title: Open Source Software, Licenses, Repositories, and Collaboration
-description: Understanding how modern software is built, shared, and used
+title: 'Open Source Software, Licenses, Repositories, and Collaboration'
+description: 'Understanding how modern software is built, shared, and used'
 author: Leonardo Mingari
 date: 12 June 2026
 marp: true
@@ -16,15 +16,15 @@ _Geosciences Barcelona (GEO3BCN-CSIC)_
 
 ![w:250px](assets/qrcode.png)
 
----
-
-## Introduction
-
 ----
 
 ### Content
 
-> [TOC]
+<!-- toc -->
+
+---
+
+## Introduction
 
 ----
 
