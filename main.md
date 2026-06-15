@@ -4,7 +4,6 @@ description: 'Understanding how modern software is built, shared, and used'
 author: Leonardo Mingari
 date: 12 June 2026
 marp: true
-theme: my-theme
 ---
 
 # Introduction to Open Source Software
