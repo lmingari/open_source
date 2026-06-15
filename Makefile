@@ -1,5 +1,5 @@
 INPUT ?= main.md
-OUTPUT ?= output.html
+OUTPUT ?= index.html
 THEME ?= my-theme.css
 
 .PHONY: build watch clean toc
