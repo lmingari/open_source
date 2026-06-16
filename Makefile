@@ -1,17 +1,18 @@
-INPUT ?= main.md
-OUTPUT ?= index.html
+INPUT       ?= main.md
+OUTPUT      ?= index.html
+TOC         ?= python3 toc.py
+TOC_FLAGS   := --maxdepth 3
 
-.PHONY: build watch clean toc
+.PHONY: build watch clean
 
-build: toc
-	marp $(INPUT).tmp -o $(OUTPUT)
+%.toc: %
+	$(TOC) $< $(TOC_FLAGS) > $@
 
-toc:
-	cp $(INPUT) $(INPUT).tmp
-	markdown-toc -i --bullets="-" --maxdepth=3 $(INPUT).tmp
+build: $(INPUT).toc
+	marp $(INPUT).toc -o $(OUTPUT)
 
 watch:
-	marp $(INPUT).tmp -o $(OUTPUT) --watch
+	marp $(INPUT).toc -o $(OUTPUT) --watch
 
 clean:
-	rm -f $(OUTPUT) $(INPUT).tmp
+	rm -f $(OUTPUT) $(INPUT).toc

@@ -19,7 +19,7 @@ _Geosciences Barcelona (GEO3BCN-CSIC)_
 
 ### Content
 
-<!-- toc -->
+[TOC]
 
 ---
 
@@ -52,18 +52,33 @@ It matters for your work, even if you are not a developer!
 
 ----
 
+<!-- _class: two-column-a -->
+
 ### Why It Matters
 
 Open source powers much of the modern digital world.
 
-More importantly, it is something you will regularly encounter in:
+<div class="columns">
+
+<div>
+
+Regularly encountered in:
+
 - research and data science workflows
 - software development in industry
 - everyday tools and platforms
 
-Understanding open source is essential to avoid legal, ethical, and practical risks when using software.
+</div>
+
+<div>
 
 ![](https://www.cobalt.io/hs-fs/hubfs/examples-of-open-sourced-software.jpeg)
+
+</div>
+
+</div>
+
+> Understanding open source is essential to avoid legal, ethical, and practical risks when using software.
 
 ----
 
@@ -347,7 +362,7 @@ _Example_: Large-scale industry projects often choose Apache 2.0 to reduce legal
 
 ----
 
-### Type of softwares: Examples
+### Types of Softwares: Examples
 
 ![](assets/software_license_flowchart.svg)
 

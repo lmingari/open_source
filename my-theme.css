@@ -8,6 +8,21 @@ section {
   padding: 40px;
 }
 
+section[class^="two-column"] .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+section.two-column-a .columns {
+  grid-template-columns: 40% 60%;
+}
+
+section.two-column .columns > div {
+  min-width: 0;
+}
+
 div.info {
   background: #e8f4fd;
   border-left: 4px solid #3b82f6;
